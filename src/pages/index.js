@@ -12,7 +12,7 @@ const Index = ({data})=> {
    
    <LayoutMargin>
     <div>
-      <h1>Hi world, I'm using gatsby js</h1>
+      <h1>Hi world, I'm using gatsby js prueba</h1>
       {
         dataPost.map(post => (<h2 key={post.id}>{post.content}</h2>))
 
